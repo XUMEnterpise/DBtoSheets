@@ -1,38 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\",
+  "WorkspaceRootPath": "E:\\DBtoSheets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\services\\manifesttableservice\\databasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\services\\manifesttableservice\\databasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\models\\uploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\models\\uploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\services\\googlesheetsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|E:\\DBtoSheets\\uploadtosheets\\services\\googlesheetsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\services\\googlesheetsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\models\\manifestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\dtos\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\dtos\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\models\\historymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\models\\historymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|E:\\DBtoSheets\\uploadtosheets\\models\\manifestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\models\\manifestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\services\\manifesttableservice\\idatabasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\services\\historyservice\\idatabasetohistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\services\\historyservice\\idatabasetohistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\services\\historyservice\\databasetohistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\services\\historyservice\\databasetohistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\services\\manifesttableservice\\databasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\services\\manifesttableservice\\databasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|E:\\DBtoSheets\\uploadtosheets\\services\\manifesttableservice\\idatabasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\services\\manifesttableservice\\idatabasemanifesttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\cred.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\cred.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|E:\\DBtoSheets\\uploadtosheets\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DBtoSheets\\UploadToSheets\\DTOS\\DBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UploadToSheets\\DTOS\\DBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|e:\\dbtosheets\\uploadtosheets\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B75B92A-ED4B-40E3-9FDF-80755E3D4EA7}|UploadToSheets\\UploadToSheets.csproj|solutionrelative:uploadtosheets\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\pc\\source\\repos\\uploadtosheets\\uploadtosheets\\cred.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,45 +65,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDatabaseToHistory.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Services\\HistoryService\\IDatabaseToHistory.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Services\\HistoryService\\IDatabaseToHistory.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Services\\HistoryService\\IDatabaseToHistory.cs",
+              "RelativeToolTip": "UploadToSheets\\Services\\HistoryService\\IDatabaseToHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:20:30.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistoryModel.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Models\\HistoryModel.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Models\\HistoryModel.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Models\\HistoryModel.cs",
+              "RelativeToolTip": "UploadToSheets\\Models\\HistoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:14:32.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UploadModel.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Models\\UploadModel.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Models\\UploadModel.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Models\\UploadModel.cs",
+              "RelativeToolTip": "UploadToSheets\\Models\\UploadModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAArwDYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:48:42.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\DTOS\\DBContext.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\DTOS\\DBContext.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\DTOS\\DBContext.cs",
+              "RelativeToolTip": "UploadToSheets\\DTOS\\DBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:38:12.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DatabaseManifestTable.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Services\\ManifestTableService\\DatabaseManifestTable.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Services\\ManifestTableService\\DatabaseManifestTable.cs",
               "RelativeDocumentMoniker": "UploadToSheets\\Services\\ManifestTableService\\DatabaseManifestTable.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Services\\ManifestTableService\\DatabaseManifestTable.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Services\\ManifestTableService\\DatabaseManifestTable.cs",
               "RelativeToolTip": "UploadToSheets\\Services\\ManifestTableService\\DatabaseManifestTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T13:45:07.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IDatabaseManifestTable.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Services\\ManifestTableService\\IDatabaseManifestTable.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Services\\ManifestTableService\\IDatabaseManifestTable.cs",
               "RelativeDocumentMoniker": "UploadToSheets\\Services\\ManifestTableService\\IDatabaseManifestTable.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Services\\ManifestTableService\\IDatabaseManifestTable.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Services\\ManifestTableService\\IDatabaseManifestTable.cs",
               "RelativeToolTip": "UploadToSheets\\Services\\ManifestTableService\\IDatabaseManifestTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T13:43:25.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ManifestModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Models\\ManifestModel.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Models\\ManifestModel.cs",
               "RelativeDocumentMoniker": "UploadToSheets\\Models\\ManifestModel.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Models\\ManifestModel.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Models\\ManifestModel.cs",
               "RelativeToolTip": "UploadToSheets\\Models\\ManifestModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,63 +161,86 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\DBContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "UploadToSheets\\DBContext\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\DBContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "UploadToSheets\\DBContext\\ApplicationDbContext.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAiwEEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T13:14:20.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "cred.json",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\cred.json",
-              "RelativeDocumentMoniker": "UploadToSheets\\cred.json",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\cred.json",
-              "RelativeToolTip": "UploadToSheets\\cred.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-11T12:50:17.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GoogleSheetsService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Services\\GoogleSheetsService.cs",
-              "RelativeDocumentMoniker": "UploadToSheets\\Services\\GoogleSheetsService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Services\\GoogleSheetsService.cs",
-              "RelativeToolTip": "UploadToSheets\\Services\\GoogleSheetsService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowDgAAACAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T12:16:06.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Form1.cs",
-              "RelativeDocumentMoniker": "UploadToSheets\\Form1.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Form1.cs",
-              "RelativeToolTip": "UploadToSheets\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAMAAAA",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Forms\\Form1.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Forms\\Form1.cs",
+              "RelativeToolTip": "UploadToSheets\\Forms\\Form1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T12:11:52.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoogleSheetsService.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Services\\GoogleSheetsService.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Services\\GoogleSheetsService.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Services\\GoogleSheetsService.cs",
+              "RelativeToolTip": "UploadToSheets\\Services\\GoogleSheetsService.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwE8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T12:16:06.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "History.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\DTOS\\History.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\DTOS\\History.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\DTOS\\History.cs",
+              "RelativeToolTip": "UploadToSheets\\DTOS\\History.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:23:19.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "DatabaseToHistoryService.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Services\\HistoryService\\DatabaseToHistoryService.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Services\\HistoryService\\DatabaseToHistoryService.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Services\\HistoryService\\DatabaseToHistoryService.cs",
+              "RelativeToolTip": "UploadToSheets\\Services\\HistoryService\\DatabaseToHistoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:21:23.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\DBContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\DBContext\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\DBContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UploadToSheets\\DBContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:14:20.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "cred.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\cred.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\cred.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T12:50:17.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Form1.cs",
-              "RelativeDocumentMoniker": "UploadToSheets\\Form1.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UploadToSheets\\UploadToSheets\\Form1.cs [Design]",
-              "RelativeToolTip": "UploadToSheets\\Form1.cs [Design]",
+              "DocumentMoniker": "E:\\DBtoSheets\\UploadToSheets\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "UploadToSheets\\Forms\\Form1.cs",
+              "ToolTip": "E:\\DBtoSheets\\UploadToSheets\\Forms\\Form1.cs [Design]",
+              "RelativeToolTip": "UploadToSheets\\Forms\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T12:02:50.659Z",
               "EditorCaption": " [Design]"

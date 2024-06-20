@@ -7,17 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace UploadToSheets.DTOS;
 
 [Keyless]
-public partial class ServiceTag
+[Table("GPUS")]
+public partial class Gpu
 {
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? ServiceKey { get; set; }
-
+    [Column("GPU")]
     [StringLength(255)]
     [Unicode(false)]
-    public string? Model { get; set; }
-
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? SerialNumber { get; set; }
+    public string? Gpu1 { get; set; }
 }

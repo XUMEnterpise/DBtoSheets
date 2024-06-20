@@ -7,17 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace UploadToSheets.DTOS;
 
 [Keyless]
-public partial class ServiceTag
+[Table("SSDS")]
+public partial class Ssd
 {
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? ServiceKey { get; set; }
-
+    [Column("SSD")]
     [StringLength(255)]
     [Unicode(false)]
-    public string? Model { get; set; }
-
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? SerialNumber { get; set; }
+    public string? Ssd1 { get; set; }
 }

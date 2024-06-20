@@ -7,17 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace UploadToSheets.DTOS;
 
 [Keyless]
-public partial class ServiceTag
+[Table("CASES")]
+public partial class Case
 {
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? ServiceKey { get; set; }
-
+    [Column("CASE")]
     [StringLength(255)]
     [Unicode(false)]
-    public string? Model { get; set; }
-
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? SerialNumber { get; set; }
+    public string? Case1 { get; set; }
 }

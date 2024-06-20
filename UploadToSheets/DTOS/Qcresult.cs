@@ -1,12 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace UploadToSheets.DTOS;
 
+[Table("QCResults")]
 public partial class Qcresult
 {
+    [Key]
+    [Column("QCResultId")]
     public int QcresultId { get; set; }
 
+    [StringLength(25)]
     public string? DbId { get; set; }
 
     public bool? Verdict { get; set; }
@@ -15,6 +22,7 @@ public partial class Qcresult
 
     public bool? SoundTestPassed { get; set; }
 
+    [Column("IOTestPassed")]
     public bool? IotestPassed { get; set; }
 
     public bool? KeyboardTestPassed { get; set; }
@@ -31,8 +39,10 @@ public partial class Qcresult
 
     public bool? RgbAndLightsPassed { get; set; }
 
+    [Column(TypeName = "text")]
     public string? Notes { get; set; }
 
+    [Column("QCTestDate", TypeName = "datetime")]
     public DateTime? QctestDate { get; set; }
 
     public bool? PixelTest { get; set; }

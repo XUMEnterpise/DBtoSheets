@@ -77,27 +77,30 @@ namespace GoogleSheetsAPI
             var appendResponse = appendRequest.Execute();
         }
 
-        public IList<IList<object>> ReadData(string sheetName)
+        public IList<IList<object>> ReadData(string sheetName,string startColumn="A",int startRow=1, string endColumn = "Z")
         {
-            var range = $"{sheetName}!A1:Z1000"; // Adjust the range as needed
+            var range = $"{sheetName}!{startColumn}{startRow}:{endColumn}"; // Adjust the range as needed
             var request = _sheetsService.Spreadsheets.Values.Get(_spreadsheetId, range);
             var response = request.Execute();
             return response.Values;
         }
-        public async Task<IList<IList<object>>> ConvertToSheetData(IEnumerable<ManifestModel> manifestModels)
+        public async Task<IList<IList<object>>> ConvertToSheetData(IEnumerable<object> data)
         {
             var sheetData = new List<IList<object>>();
 
-            // Adding headers if necessary
-            sheetData.Add(new List<object> { "Prebuild", "PrebuildSku", "OrderNumber", "OrderSku" });
 
-            foreach (var model in manifestModels)
+            foreach (var model in data)
             {
-                var row = new List<object> { model.prebuildId, model.prebuildSKU, model.orderId, model.orderSku };
+                var row = new List<object>();
+                foreach (var property in model.GetType().GetProperties())
+                {
+                    var value = property.GetValue(model)??"Null";
+                    row.Add(value);
+                }
                 sheetData.Add(row);
             }
 
-            return sheetData;
+            return await Task.FromResult<IList<IList<object>>>(sheetData);
         }
     }
 }

@@ -7,17 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace UploadToSheets.DTOS;
 
 [Keyless]
-public partial class ServiceTag
+[Table("WINDOWS")]
+public partial class Window
 {
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? ServiceKey { get; set; }
-
+    [Column("WINDOWS")]
     [StringLength(255)]
     [Unicode(false)]
-    public string? Model { get; set; }
-
-    [StringLength(25)]
-    [Unicode(false)]
-    public string? SerialNumber { get; set; }
+    public string? Windows { get; set; }
 }
