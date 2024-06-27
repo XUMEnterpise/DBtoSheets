@@ -23,7 +23,6 @@ C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadToSheets.csproj.AssemblyReference.cache
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadTo.E295C41C.Up2Date
-C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\cred.json
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\Azure.Core.dll
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\Azure.Identity.dll
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\Humanizer.dll
@@ -274,3 +273,5 @@ E:\DBtoSheets\UploadToSheets\obj\Debug\net8.0-windows\refint\UploadToSheets.dll
 E:\DBtoSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadToSheets.pdb
 E:\DBtoSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadToSheets.genruntimeconfig.cache
 E:\DBtoSheets\UploadToSheets\obj\Debug\net8.0-windows\ref\UploadToSheets.dll
+C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadToSheets.sourcelink.json
+C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\cred.json

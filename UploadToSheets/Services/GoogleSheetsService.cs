@@ -102,6 +102,14 @@ namespace GoogleSheetsAPI
 
             return await Task.FromResult<IList<IList<object>>>(sheetData);
         }
+        public void ClearSheet( string sheetName)
+        {
+            var requestBody = new ClearValuesRequest();
+            var clearRequest = _sheetsService.Spreadsheets.Values.Clear(requestBody, _spreadsheetId, sheetName);
+            var response = clearRequest.Execute();
+
+            Console.WriteLine("Sheet cleared: " + response.ClearedRange);
+        }
     }
 }
 

@@ -15,8 +15,8 @@ public partial class ApplicationDbContext : DbContext
         : base(options)
     {
     }
-    //private readonly string connectionString = "Data Source=WIN-K1TRUVHT0PC\\XUMGPC;Initial Catalog=xumlocal;User ID=XumAdmin;Password=Lolipopchainsaw3; TrustServerCertificate=True;";
-    private readonly string connectionString = "Data Source=DESKTOP-V7HB0MU\\MSSQLSERVER01;Initial Catalog=xumlocal;Persist Security Info=True;Integrated Security=True;TrustServerCertificate=True;";
+    private readonly string connectionString = "Data Source=WIN-K1TRUVHT0PC\\XUMGPC;Initial Catalog=xumlocal;User ID=XumAdmin;Password=Lolipopchainsaw3; TrustServerCertificate=True;";
+    //private readonly string connectionString = "Data Source=DESKTOP-V7HB0MU\\MSSQLSERVER01;Initial Catalog=xumlocal;Persist Security Info=True;Integrated Security=True;TrustServerCertificate=True;";
     public virtual DbSet<CustomerInfo> CustomerInfos { get; set; }
 
     public virtual DbSet<History> Histories { get; set; }

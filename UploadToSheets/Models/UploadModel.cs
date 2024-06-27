@@ -19,14 +19,15 @@ namespace UploadToSheets.Models
             IDatabaseManifestTable databaseManifestTable = new DatabaseManifestTable();
             var data = Task.Run(() => sheetsService.ConvertToSheetData(databaseManifestTable.GetManifestModels().Result));
             var table = await data;
-            await Task.Run(() => UploadData("Manifest", "A", 2, "D", table));
+            
+            await Task.Run(() => UploadDataClear("Manifest", "A", 2, "D", table));
        }
        public async void UploadHistory()
         {
             IDatabaseToHistory databaseHistoryTable = new DatabaseToHistoryService();
             var data = Task.Run(() => sheetsService.ConvertToSheetData(databaseHistoryTable.GetHistoryModels().Result));
             var table = await data;
-            await Task.Run(() => UploadData("History", "A", 2, "L", table));
+            await Task.Run(() => UploadDataClear("History", "A", 2, "L", table));
        }
         private async void UploadData(string sheetName,string columnStart, int rowStart, string columnEnd, IList<IList<object>> table)
         {
@@ -39,7 +40,13 @@ namespace UploadToSheets.Models
             var newValues = FindNewValues(sheet, table, 0);
             sheetsService.UploadData(sheetName, newValues);
         }
-       private static IList<IList<object>> FindNewValues(IList<IList<object>> list1, IList<IList<object>> list2,int column)
+        private async void UploadDataClear(string sheetName, string columnStart, int rowStart, string columnEnd, IList<IList<object>> table)
+        {
+            var sheet = sheetsService.ReadData(sheetName, columnStart, rowStart, columnEnd);
+            sheetsService.ClearSheet(sheetName);
+            sheetsService.UploadData(sheetName, table);
+        }
+        private static IList<IList<object>> FindNewValues(IList<IList<object>> list1, IList<IList<object>> list2,int column)
        {
             var newValues = new List<IList<object>>();
 
@@ -51,7 +58,6 @@ namespace UploadToSheets.Models
             .Where(innerlist => innerlist.Count > 0 && innerlist[column] != null)
             .Select(innerlist => innerlist[column].ToString() ?? ""));
 
-
             foreach (var item in set2)
             {
                 if (!set1.Contains(item))
@@ -60,7 +66,6 @@ namespace UploadToSheets.Models
                     newValues.Add(newItem);
                 }
             }
-
             return newValues;
        }
     }
