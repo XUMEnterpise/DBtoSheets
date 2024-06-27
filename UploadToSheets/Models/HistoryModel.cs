@@ -20,7 +20,7 @@ namespace UploadToSheets.Models
             TestedBy = testedBy;
             TestStatus = testStatus;
             PackedBy = packedBy;
-            PackedDate = packedDate;
+            PackedDate = packedDate.HasValue?packedDate.Value.ToString("f"):"Null";
             AssignedNumber = assignedNumber;
         }
 
@@ -34,7 +34,7 @@ namespace UploadToSheets.Models
         public string TestedBy { get; private set; }
         public string TestStatus { get; private set; }
         public string PackedBy { get; private set; }
-        public DateTime? PackedDate { get; private set; }
+        public string PackedDate { get; private set; }
         public string AssignedNumber { get; private set; }
 
     }

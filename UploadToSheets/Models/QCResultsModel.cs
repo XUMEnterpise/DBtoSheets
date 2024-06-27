@@ -24,7 +24,7 @@ namespace UploadToSheets.Models
             CableManagementPassed = cableManagementPassed;
             RgbAndLightingPassed = rgbAndLightingPassed;
             Notes = notes;
-            QCDate = qCDate;
+            QCDate = qCDate.HasValue?qCDate.Value.ToString("f"):"Null";
             PixelTest = pixelTest;
             WifiTest = wifiTest;
         }
@@ -43,7 +43,7 @@ namespace UploadToSheets.Models
         public bool? CableManagementPassed { get; private set; }
         public bool? RgbAndLightingPassed { get; private set; }
         public string? Notes { get; private set; }
-        public DateTime? QCDate { get; private set; }
+        public string QCDate { get; private set; }
         public bool? PixelTest { get; private set; }
         public bool? WifiTest { get; private set; } 
 
