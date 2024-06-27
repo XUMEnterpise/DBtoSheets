@@ -110,6 +110,38 @@ namespace GoogleSheetsAPI
 
             Console.WriteLine("Sheet cleared: " + response.ClearedRange);
         }
+        public void ClearSheetButKeepHeaders(string sheetName)
+        {
+            int totalRows = GetTotalRows(sheetName);
+
+            if (totalRows <= 1)
+            {
+                Console.WriteLine("No rows to clear besides the header.");
+                return;
+            }
+            var range = $"{sheetName}!2:{totalRows}";
+            var requestBody = new ClearValuesRequest();
+            var clearRequest = _sheetsService.Spreadsheets.Values.Clear(requestBody, _spreadsheetId, range);
+            var response = clearRequest.Execute();
+        }
+
+        private int GetTotalRows(string sheetName)
+        {
+            var spreadsheet = _sheetsService.Spreadsheets.Get(_spreadsheetId).Execute();
+            var sheet = spreadsheet.Sheets.FirstOrDefault(s => s.Properties.Title == sheetName);
+
+            if (sheet == null)
+            {
+                throw new Exception($"Sheet '{sheetName}' not found.");
+            }
+
+            var sheetId = (int)sheet.Properties.SheetId;
+
+            var request = _sheetsService.Spreadsheets.Values.Get(_spreadsheetId, sheetName);
+            var response = request.Execute();
+
+            return response.Values != null ? response.Values.Count : 0;
+        }
     }
 }
 

@@ -275,3 +275,4 @@ E:\DBtoSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadToSheets.genruntimec
 E:\DBtoSheets\UploadToSheets\obj\Debug\net8.0-windows\ref\UploadToSheets.dll
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\obj\Debug\net8.0-windows\UploadToSheets.sourcelink.json
 C:\Users\PC\source\repos\UploadToSheets\UploadToSheets\bin\Debug\net8.0-windows\cred.json
+E:\DBtoSheets\UploadToSheets\bin\Debug\net8.0-windows\cred.json

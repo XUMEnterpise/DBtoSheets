@@ -7,6 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UploadToSheets.Services.HistoryService;
 using UploadToSheets.Services.ManifestTableService;
+using UploadToSheets.Services.QCResultsService;
+using UploadToSheets.Services.TestResultsService;
+using UploadToSheets.Services.WindowsKeyDataService;
 
 namespace UploadToSheets.Models
 {
@@ -29,6 +32,27 @@ namespace UploadToSheets.Models
             var table = await data;
             await Task.Run(() => UploadDataClear("History", "A", 2, "L", table));
        }
+        public async void UploadQCData()
+        {
+            IQCResultsDbToModel databaseQCResults = new DbToQCResultsModel();
+            var data = Task.Run(() => sheetsService.ConvertToSheetData(databaseQCResults.GetQcModel().Result));
+            var table = await data;
+            await Task.Run(() => UploadDataClear("QCResults", "A", 2, "Q", table));
+        }
+        public async void UploadTestResults()
+        {
+            ITestResultsToModel databaseTestResults = new DatabaseToTestResults();
+            var data = Task.Run(() => sheetsService.ConvertToSheetData(databaseTestResults.GetTestResultsModel().Result));
+            var table = await data;
+            await Task.Run(() => UploadDataClear("TestResults", "A", 2, "H", table));
+        }
+        public async void UploadWindowsKey()
+        {
+            IDatabaseToWindowsKeyModel databaseWindowsKey = new DatabaseToWindowsKeyModel();
+            var data = Task.Run(() => sheetsService.ConvertToSheetData(databaseWindowsKey.GetWindowsKeyModels().Result));
+            var table = await data;
+            await Task.Run(() => UploadDataClear("WindowsKey", "A", 2, "H", table));
+        }   
         private async void UploadData(string sheetName,string columnStart, int rowStart, string columnEnd, IList<IList<object>> table)
         {
             var sheet = sheetsService.ReadData(sheetName, columnStart, rowStart, columnEnd);
@@ -43,7 +67,7 @@ namespace UploadToSheets.Models
         private async void UploadDataClear(string sheetName, string columnStart, int rowStart, string columnEnd, IList<IList<object>> table)
         {
             var sheet = sheetsService.ReadData(sheetName, columnStart, rowStart, columnEnd);
-            sheetsService.ClearSheet(sheetName);
+            sheetsService.ClearSheetButKeepHeaders(sheetName);
             sheetsService.UploadData(sheetName, table);
         }
         private static IList<IList<object>> FindNewValues(IList<IList<object>> list1, IList<IList<object>> list2,int column)
