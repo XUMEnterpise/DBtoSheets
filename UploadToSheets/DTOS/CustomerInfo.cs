@@ -11,6 +11,7 @@ public partial class CustomerInfo
 {
     [Key]
     [Column("ID")]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
 
     [Column("OrderID")]

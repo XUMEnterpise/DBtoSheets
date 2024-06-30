@@ -4,17 +4,22 @@ using System.Collections.Generic;
 using System.Timers;
 using UploadToSheets.DTOS;
 using UploadToSheets.Models;
+using UploadToSheets.Services;
 using UploadToSheets.Services.ManifestTableService;
 namespace UploadToSheets
 {
     public partial class Upload : Form
     {
 
-        private static System.Timers.Timer hourlyTimer;
+        private static System.Timers.Timer hourlyTimer, minuteTimer;
+        CSVConverterClass cSVConverterClass;
         public Upload()
         {
             InitializeComponent();
             SetHourlyTimer();
+            SetMinuteTimer();
+            cSVConverterClass = new CSVConverterClass();
+            cSVConverterClass.UploadToDb();
         }
         private void SetHourlyTimer()
         {
@@ -42,6 +47,18 @@ namespace UploadToSheets
             firstTimer.Start();
         }
 
+        private void SetMinuteTimer()
+        {
+            // Create a timer with a one-hour interval.
+            minuteTimer = new System.Timers.Timer(30000); // 3600000 milliseconds = 1 hour
+
+            // Hook up the Elapsed event for the timer.
+            minuteTimer.Elapsed += OnMinuteEvend;
+            minuteTimer.AutoReset = true;
+            minuteTimer.Enabled = true;
+            minuteTimer.Start();
+        }
+
         private void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
             try
@@ -56,7 +73,20 @@ namespace UploadToSheets
                
             }
         }
+        private async void OnMinuteEvend(Object source, ElapsedEventArgs e)
+        {
+            try
+            {
+               cSVConverterClass.UploadToDb();
 
+
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions here
+
+            }
+        }
         private static void UploadSequance()
         {
             UploadModel uploadModel = new UploadModel();
