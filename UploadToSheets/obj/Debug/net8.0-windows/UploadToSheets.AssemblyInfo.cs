@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UploadToSheets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2b5b1c82eaf730e5dc2508968412c2d1a02a5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68794ae89b1424f9a7f2f8f9f553eaa3832d20c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UploadToSheets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UploadToSheets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,7 +23,7 @@ namespace UploadToSheets.Models
             var data = Task.Run(() => sheetsService.ConvertToSheetData(databaseManifestTable.GetManifestModels().Result));
             var table = await data;
             
-            await Task.Run(() => UploadDataClear("Manifest", "A", 2, "D", table));
+            await Task.Run(() => UploadDataClear("Manifest", "A", 2, "E", table));
        }
        public async void UploadHistory()
         {

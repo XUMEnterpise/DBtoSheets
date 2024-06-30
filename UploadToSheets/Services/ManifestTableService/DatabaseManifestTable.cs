@@ -22,7 +22,7 @@ namespace UploadToSheets.Services.ManifestTableService
         }
         private static ManifestModel ToManifestModel(ManifestTable r)
         {
-            return new ManifestModel(r.Prebuild,r.PrebuildSku,r.OrderNumber,r.OrderSku);
+            return new ManifestModel(r.Prebuild,r.PrebuildSku,r.OrderNumber,r.OrderSku,r.PackedDate);
         }
     }
 }

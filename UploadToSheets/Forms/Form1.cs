@@ -48,12 +48,12 @@ namespace UploadToSheets
             {
                 UploadSequance();
 
-                richTextBox1.AppendText($"Methods executed at: {e.SignalTime}");
+                
             }
             catch (Exception ex)
             {
                 // Handle any exceptions here
-                richTextBox1.AppendText("Error executing methods: " + ex.Message);
+               
             }
         }
 
